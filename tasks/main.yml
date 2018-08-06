@@ -1,0 +1,6 @@
+---
+
+- name: rsync package is present
+  package:
+    name: rsync
+    state: installed
